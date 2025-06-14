@@ -1,0 +1,58 @@
+[02:58:25.186] Running build in Washington, D.C., USA (East) – iad1
+[02:58:25.187] Build machine configuration: 2 cores, 8 GB
+[02:58:25.199] Cloning github.com/Davirlox11/gym-app (Branch: main, Commit: 9d6ca4d)
+[02:58:25.222] Skipping build cache, deployment was triggered without cache.
+[02:58:25.483] Cloning completed: 284.000ms
+[02:58:25.828] Running "vercel build"
+[02:58:26.469] Vercel CLI 42.2.0
+[02:58:26.614] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[02:58:27.211] Installing dependencies...
+[02:58:31.686] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[02:58:31.733] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[02:58:35.676] 
+[02:58:35.677] added 496 packages in 8s
+[02:58:35.677] 
+[02:58:35.677] 67 packages are looking for funding
+[02:58:35.678]   run `npm fund` for details
+[02:58:35.737] Running "npm run build"
+[02:58:35.856] 
+[02:58:35.857] > rest-express@1.0.0 build
+[02:58:35.857] > npx vite build --config vite.config.js && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[02:58:35.857] 
+[02:58:36.460] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[02:58:36.509] transforming...
+[02:58:36.793] Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+[02:58:36.794]   npx update-browserslist-db@latest
+[02:58:36.794]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[02:58:40.605] [32m✓[39m 1713 modules transformed.
+[02:58:40.884] rendering chunks...
+[02:58:40.894] computing gzip size...
+[02:58:40.910] [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  0.63 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m
+[02:58:40.910] [2m../dist/public/[22m[2massets/[22m[35mindex-C8PnDm-L.css  [39m[1m[2m 36.24 kB[22m[1m[22m[2m │ gzip:   7.28 kB[22m
+[02:58:40.911] [2m../dist/public/[22m[2massets/[22m[36mindex-7_Ih_wEp.js   [39m[1m[2m351.76 kB[22m[1m[22m[2m │ gzip: 110.80 kB[22m
+[02:58:40.911] [32m✓ built in 4.43s[39m
+[02:58:40.954] 
+[02:58:40.954]   dist/index.js  30.5kb
+[02:58:40.954] 
+[02:58:40.954] ⚡ Done in 7ms
+[02:58:41.209] Using TypeScript 5.6.3 (local user-provided)
+[02:58:47.065] server/db-storage.ts(32,29): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(45,29): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(50,29): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(59,13): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(68,29): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(73,27): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(78,26): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(87,13): error TS18047: 'db' is possibly 'null'.
+[02:58:47.065] server/db-storage.ts(96,13): error TS18047: 'db' is possibly 'null'.
+[02:58:47.066] server/db-storage.ts(112,28): error TS18047: 'db' is possibly 'null'.
+[02:58:47.066] server/db-storage.ts(134,11): error TS18047: 'db' is possibly 'null'.
+[02:58:47.066] server/db-storage.ts(135,11): error TS18047: 'db' is possibly 'null'.
+[02:58:47.066] 
+[02:58:48.524] Build Completed in /vercel/output [21s]
+[02:58:48.640] Deploying outputs...
+[02:58:52.308] 
+[02:58:52.673] Deployment completed
+[02:59:08.056] Uploading build cache [74.18 MB]...
+[02:59:14.200] Build cache uploaded: 6.149s
+[02:59:16.487] Exiting build container

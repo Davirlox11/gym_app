@@ -1,0 +1,47 @@
+[18:00:50.530] Running build in Washington, D.C., USA (East) – iad1
+[18:00:50.531] Build machine configuration: 2 cores, 8 GB
+[18:00:50.543] Cloning github.com/Davirlox11/gym-app (Branch: main, Commit: 6c5d799)
+[18:00:50.551] Skipping build cache, deployment was triggered without cache.
+[18:00:50.817] Cloning completed: 274.000ms
+[18:00:51.651] Running "vercel build"
+[18:00:52.254] Vercel CLI 42.2.0
+[18:00:52.953] Running "install" command: `npm install && cd client && npm install`...
+[18:00:57.662] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[18:00:57.689] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[18:01:01.681] 
+[18:01:01.682] added 426 packages, and audited 427 packages in 8s
+[18:01:01.683] 
+[18:01:01.683] 61 packages are looking for funding
+[18:01:01.683]   run `npm fund` for details
+[18:01:01.712] 
+[18:01:01.713] 9 vulnerabilities (1 low, 6 moderate, 2 high)
+[18:01:01.713] 
+[18:01:01.713] To address issues that do not require attention, run:
+[18:01:01.713]   npm audit fix
+[18:01:01.714] 
+[18:01:01.714] To address all issues (including breaking changes), run:
+[18:01:01.714]   npm audit fix --force
+[18:01:01.714] 
+[18:01:01.714] Run `npm audit` for details.
+[18:01:26.554] 
+[18:01:26.555] added 72 packages, and audited 73 packages in 25s
+[18:01:26.556] 
+[18:01:26.556] 6 packages are looking for funding
+[18:01:26.556]   run `npm fund` for details
+[18:01:26.556] 
+[18:01:26.557] found 0 vulnerabilities
+[18:01:27.221] [31mfailed to load config from /vercel/path0/client/vite.config.ts[39m
+[18:01:27.222] [31merror during build:
+[18:01:27.222] Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@vitejs/plugin-react' imported from /vercel/path0/client/vite.config.ts.timestamp-1749830487218-362b09ea4c534.mjs
+[18:01:27.222]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+[18:01:27.222]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[18:01:27.222]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[18:01:27.223]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[18:01:27.223]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+[18:01:27.223]     at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+[18:01:27.223]     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+[18:01:27.223]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+[18:01:27.227]     at ModuleJob._link (node:internal/modules/esm/module_job:137:49)[39m
+[18:01:27.238] Error: Command "cd client && npx vite build --outDir ../dist/public" exited with 1
+[18:01:27.515] 
+[18:01:30.708] Exiting build container

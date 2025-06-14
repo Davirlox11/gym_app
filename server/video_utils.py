@@ -1,0 +1,1 @@
+# Placeholder file - video trimming temporarily disabled

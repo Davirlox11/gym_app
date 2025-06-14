@@ -1,0 +1,44 @@
+[17:10:04.062] Running build in Washington, D.C., USA (East) – iad1
+[17:10:04.062] Build machine configuration: 2 cores, 8 GB
+[17:10:04.073] Cloning github.com/Davirlox11/gym-app (Branch: main, Commit: 29efdab)
+[17:10:04.249] Previous build caches not available
+[17:10:04.369] Cloning completed: 295.000ms
+[17:10:04.688] Running "vercel build"
+[17:10:05.137] Vercel CLI 42.2.0
+[17:10:05.864] Running "install" command: `npm install`...
+[17:10:09.719] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[17:10:09.773] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[17:10:13.383] 
+[17:10:13.384] added 426 packages, and audited 427 packages in 7s
+[17:10:13.384] 
+[17:10:13.385] 61 packages are looking for funding
+[17:10:13.385]   run `npm fund` for details
+[17:10:13.412] 
+[17:10:13.413] 9 vulnerabilities (1 low, 6 moderate, 2 high)
+[17:10:13.413] 
+[17:10:13.413] To address issues that do not require attention, run:
+[17:10:13.414]   npm audit fix
+[17:10:13.414] 
+[17:10:13.414] To address all issues (including breaking changes), run:
+[17:10:13.414]   npm audit fix --force
+[17:10:13.414] 
+[17:10:13.415] Run `npm audit` for details.
+[17:10:13.665] 
+[17:10:13.665] > rest-express@1.0.0 build
+[17:10:13.665] > npx vite build --config vite.config.js && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[17:10:13.665] 
+[17:10:14.153] [31mfailed to load config from /vercel/path0/vite.config.js[39m
+[17:10:14.153] [31merror during build:
+[17:10:14.153] Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@vitejs/plugin-react' imported from /vercel/path0/vite.config.js.timestamp-1749827414150-2f9f771a04abe.mjs
+[17:10:14.154]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+[17:10:14.154]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[17:10:14.154]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[17:10:14.154]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[17:10:14.154]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+[17:10:14.154]     at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+[17:10:14.154]     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+[17:10:14.155]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+[17:10:14.155]     at ModuleJob._link (node:internal/modules/esm/module_job:137:49)[39m
+[17:10:14.173] Error: Command "npm run build" exited with 1
+[17:10:14.496] 
+[17:10:17.826] Exiting build container

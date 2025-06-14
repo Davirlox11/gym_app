@@ -1,0 +1,44 @@
+[17:33:22.459] Running build in Washington, D.C., USA (East) – iad1
+[17:33:22.459] Build machine configuration: 2 cores, 8 GB
+[17:33:22.471] Cloning github.com/Davirlox11/gym-app (Branch: main, Commit: 193f8c7)
+[17:33:23.584] Previous build caches not available
+[17:33:23.702] Cloning completed: 1.230s
+[17:33:24.040] Running "vercel build"
+[17:33:24.471] Vercel CLI 42.2.0
+[17:33:25.161] Running "install" command: `npm install`...
+[17:33:29.287] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[17:33:29.308] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[17:33:33.424] 
+[17:33:33.425] added 426 packages, and audited 427 packages in 8s
+[17:33:33.426] 
+[17:33:33.426] 61 packages are looking for funding
+[17:33:33.426]   run `npm fund` for details
+[17:33:33.456] 
+[17:33:33.457] 9 vulnerabilities (1 low, 6 moderate, 2 high)
+[17:33:33.457] 
+[17:33:33.457] To address issues that do not require attention, run:
+[17:33:33.457]   npm audit fix
+[17:33:33.458] 
+[17:33:33.458] To address all issues (including breaking changes), run:
+[17:33:33.458]   npm audit fix --force
+[17:33:33.458] 
+[17:33:33.458] Run `npm audit` for details.
+[17:33:33.731] 
+[17:33:33.731] > coachsheet-client@1.0.0 build
+[17:33:33.734] > vite build --config ../vite.config.vercel.ts
+[17:33:33.734] 
+[17:33:33.961] [31mfailed to load config from /vercel/path0/vite.config.vercel.ts[39m
+[17:33:33.962] [31merror during build:
+[17:33:33.962] Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@vitejs/plugin-react' imported from /vercel/path0/vite.config.vercel.ts.timestamp-1749828813959-b674931db34ab.mjs
+[17:33:33.962]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+[17:33:33.962]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[17:33:33.963]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[17:33:33.963]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[17:33:33.963]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+[17:33:33.963]     at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+[17:33:33.963]     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+[17:33:33.963]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+[17:33:33.963]     at ModuleJob._link (node:internal/modules/esm/module_job:137:49)[39m
+[17:33:33.976] Error: Command "cd client && npm run build" exited with 1
+[17:33:34.268] 
+[17:33:37.168] Exiting build container
