@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/deploy.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/deploy.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/deploy.js"
+    }
+  ],
+  "functions": {
+    "api/deploy.js": {
+      "maxDuration": 30
+    }
+  }
+}

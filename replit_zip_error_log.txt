@@ -1,0 +1,16 @@
+Build completed successfully!
+
+Frontend build output:
+- dist/public/index.html (0.63 kB)
+- dist/public/assets/index-C8PnDm-L.css (36.24 kB)
+- dist/public/assets/index-QxJwU-D8.js (351.52 kB)
+
+Backend build output:
+- dist/index.js (30.3kb)
+
+Scripts configured:
+- "build": compiles both frontend and backend
+- "start": runs production server from dist/index.js
+- "dev": development mode with tsx
+
+Ready for deployment with proper build artifacts.

@@ -1,0 +1,17 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.86.0",
+    "pandas>=2.3.0",
+    "pdfplumber>=0.11.6",
+    "requests>=2.32.4",
+    "cryptography>=45.0.4",
+    "pdfminer-six>=20250327",
+    "camelot-py[cv]>=1.0.0",
+    "tabula-py>=2.10.0",
+    "pypdf2>=3.0.1",
+    "openpyxl>=3.1.5",
+]
